@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render a simple button with text 1`] = `
+<button
+  data-testid="username"
+  name="username"
+>
+  Hello World
+</button>
+`;
