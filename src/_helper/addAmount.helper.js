@@ -4,7 +4,7 @@ export function addAmount(amount) {
     (acc, current) => acc + current,
     0
   )
-  console.log(reducedAmount)
+//   console.log(reducedAmount)
   return reducedAmount
 }
 
