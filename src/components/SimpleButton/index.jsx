@@ -3,9 +3,9 @@ import PropTypes from "prop-types"
 
 const SimpleButton = ({ text }) => {
   return (
-    <div>
-      <button>{text}</button>
-    </div>
+    <button name="username" data-testid="username">
+      {text}
+    </button>
   )
 }
 
